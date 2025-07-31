@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <!--navbar start here-->
+   
+    <header class="navbar">
+  <div class="nav-container">
+    <h1 class="logo">Rashid</h1>
+
+    <div class="hamburger" id="hamburger">
+      <i class="fas fa-bars"></i>
+    </div>
+
+    <nav class="nav-menu" id="nav-menu">
+      <ul class="nav-items">
+        <li><a href="#hero"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a href="#about"><i class="fa-solid fa-user"></i> About Me</a></li>
+        <li><a href="#projects"><i class="fa-solid fa-computer"></i> Projects</a></li>
+        <li><a href="#resume"><i class="fa-solid fa-file"></i> Resume</a></li>
+        <li><a href="#contact"><i class="fa-solid fa-phone"></i> Contact</a></li>
+<li>
+  <button class="nav-btn">
+    <a href="https://github.com/Muhammad-Rashid-172002">
+      <i class="fa-solid fa-code-branch"></i>
+    </a>
+    <i class="fa-regular fa-star" id="star"></i>
+  </button>
+</li>
+
+      </ul>
+    </nav>
+  </div>
+   <!-- hero section start here -->
+<div id="hero">
+  <div class="hero-text">
+    <h1>Hi there!</h1>
+    <h1>I'm <span>Muhammad Rashid </span></h1>
+    <ul class="hero-list">
+      <li><i class="fa-solid fa-code"></i>Flutter Developer</li>
+      <li><i class="fa-solid fa-lightbulb"></i> Creative Thinker</li>
+      <li><i class="fa-solid fa-laptop"></i> Tech Enthusiast</li>
+    </ul>
+  </div>
+  <div class="hero-image">
+    <img src="/images/undraw_os-upgrade_ztrf.svg" alt="mobile_image">
+  </div>
+</div>
+
+<!-- the about sectuon styling is start here -->
+ <div id="about">
+  <div class="about-info">
+  <h2>About Me</h2>
+  <div class="para">
+  <p>Hello! I'm Muhammad Rashid, a passionate Flutter developer with a knack for creating beautiful and functional mobile applications. I love turning ideas into reality through code and design.</p>
+  <p>With a background in Software Engineering and a keen interest in mobile development, I strive to build apps that not only meet user needs but also provide an exceptional user experience.</p>
+  <p>When I'm not coding, you can find me exploring new technologies, reading tech blogs, or contributing to open-source projects.</p>
+  </div>
+  </div>
+  <div class="my-image">
+    <img src="/images/rashid_profile.jpg" alt="Developer image">
+  </div>
+ </div>
+
+ 
+ <!-- the projects section start here -->
+<div id="projects">
+  <h2>Projects</h2>
+  <div class="project-list">
+    <div class="project-item">
+      <a href="https://github.com/Muhammad-Rashid-172002/Fitness_App"><img src="images/fitness_app.jpg" alt="Project 1"></a>
+      <h3>Fitness App</h3>
+      <p>This app helps people stay healthy</p>
+    </div>
+    <div class="project-item">
+       <a href="https://github.com/Muhammad-Rashid-172002/intership_Task"><img src="images/food_scan_app.jpg" alt="Project 2"></a>
+      <h3>Netroscan App</h3>
+      <p>This app help users make healthier food choices</p>
+    </div>
+    <div class="project-item">
+    <a href="https://github.com/Muhammad-Rashid-172002/Chess_Game"><img src="images/chess_game.jpg" alt="Project 3"></a>
+      <h3>Chess game</h3>
+      <p>User friendly Chess Game</p>
+    </div>
+    <div class="project-item">
+     <a href="https://github.com/Muhammad-Rashid-172002/GenieGPT"><img src="images/chatboot_app.jpg" alt="Project 4"></a>
+      <h3>Chatbot</h3>
+      <p>this is chatbot app  </p>
+    </div>
+    <div class="project-item">
+      <a href="https://github.com/Muhammad-Rashid-172002/Language_Learning_App"><img src="images/language_translater.jpg" alt="Project 5"></a>
+      <h3>Language Learning App</h3>
+      <p>on this app you can learn any language from scratch </p>
+    </div>
+    <div class="project-item">
+      <a href="https://github.com/Muhammad-Rashid-172002/Expense-Tracker-App"><img src="/images/expense_tracker.jpg" alt="Project 6"></a>
+      <h3>Expense-Tracker-App</h3>
+      <p>Track, manage, and analyze personal expenses easily.</p>
+    </div>
+   
+  </div>
+</div>
+
+
+<!-- contact section -->
+<section class="contact-section" id="contact">
+  <h2>Contact</h2>
+  <p class="sub-heading">Connect with me</p>
+  <p class="description">
+    If you want to know more about me or my work, or if you would just like to say hello, send me a message. I'd love to hear from you.
+  </p>
+
+  <div class="contact-container">
+    <!-- Left: Contact Form -->
+    <form class="contact-form">
+      <label>Name</label>
+      <input type="text" placeholder="Enter your name" required>
+
+      <label>Email</label>
+      <input type="email" placeholder="Enter your email" required>
+
+      <label>Message</label>
+      <textarea rows="6" placeholder="Enter your message" required></textarea>
+
+      <button type="submit">Send Message</button>
+      <p class="email-note">
+        Or send me email directly at <a href="mailto:yourmail@example.com">muhammadrashid172002@gmail.com</a>
+      </p>
+    </form>
+
+    <!-- Right: Contact Info -->
+    <div class="contact-info">
+      <h3>Contact Information</h3>
+      <p><i class="fas fa-envelope icon"></i>muhammadrashid172002@gmail.com</p>
+      <p><i class="fas fa-map-marker-alt icon"></i> Pabbi Peshawar, Pakistan</p>
+
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- footer section -->
+ <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-logo">
+      <h2>Muhammad Rashid</h2>
+      <p>App Developer | Flutter</p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-social">
+      <h3>Follow Me</h3>
+      <div class="social-icons">
+        <a href="https://github.com/Muhammad-Rashid-172002"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/muhammad-rashid-59062a295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i class="fab fa-linkedin"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Muhammad Rashid. All rights reserved.</p>
+  </div>
+</footer>
+
+
+<script src="index.js"></script>
+</body>
+</html>
